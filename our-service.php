@@ -75,8 +75,8 @@
                         <div class="header-top-link">
                             <ul class="quick-link">
                                 <li><a href="#">Help</a></li>
-                                <li><a href="sign-up.html">Join Us</a></li>
-                                <li><a href="sign-in.html">Sign In</a></li>
+                                <li><a href="sign-up.php">Join Us</a></li>
+                                <li><a href="login.php">Sign In</a></li>
                             </ul>
                         </div>
                     </div>
@@ -89,10 +89,10 @@
             <div class="container">
                 <div class="header-navbar">
                     <div class="header-brand">
-                        <a href="index.html" class="logo logo-dark">
+                        <a href="index.php" class="logo logo-dark">
                             <img src="assets/images/logo/logo.png" alt="Site Logo" style="width: 200px;">
                         </a>
-                        <a href="index.html" class="logo logo-light">
+                        <a href="index.php" class="logo logo-light">
                             <img src="assets/images/logo/logo.png" alt="Site Logo" style="width: 200px;">
                         </a>
                     </div>
@@ -101,70 +101,70 @@
                         <nav class="mainmenu-nav">
                             <button class="mobile-close-btn mobile-nav-toggler"><i class="fas fa-times"></i></button>
                             <div class="mobile-nav-brand">
-                                <a href="index.html" class="logo">
+                                <a href="index.php" class="logo">
                                     <img src="assets/images/logo/logo.png" alt="Site Logo" style="width: 200px;">
                                 </a>
                             </div>
                             <ul class="mainmenu">
                                 <li class="">
-                                    <a href="index.html">Home</a>
+                                    <a href="index.php">Home</a>
                                     <!-- <ul class="axil-submenu">
-                                        <li><a href="index-1.html">Home - Electronics</a></li>
-                                        <li><a href="index-2.html">Home - NFT</a></li>
-                                        <li><a href="index-3.html">Home - Fashion</a></li>
-                                        <li><a href="index-4.html">Home - Jewellery</a></li>
-                                        <li><a href="index-5.html">Home - Furniture</a></li>
-                                        <li><a href="index-7.html">Home - Multipurpose</a></li>
+                                        <li><a href="index-1.php">Home - Electronics</a></li>
+                                        <li><a href="index-2.php">Home - NFT</a></li>
+                                        <li><a href="index-3.php">Home - Fashion</a></li>
+                                        <li><a href="index-4.php">Home - Jewellery</a></li>
+                                        <li><a href="index-5.php">Home - Furniture</a></li>
+                                        <li><a href="index-7.php">Home - Multipurpose</a></li>
                                         <li><a href="https://new.axilthemes.com/demo/template/etrade-rtl/">RTL Version</a></li>
                                     </ul> -->
                                 </li>
-                                <li><a href="about-us.html">About us</a></li>
+                                <li><a href="about-us.php">About us</a></li>
                                 <li class="">
                                     <a href="#">Our Products</a>
                                     <!-- <ul class="axil-submenu">
-                                        <li><a href="shop-sidebar.html">Shop With Sidebar</a></li>
-                                        <li><a href="shop.html">Shop no Sidebar</a></li>
+                                        <li><a href="shop-sidebar.php">Shop With Sidebar</a></li>
+                                        <li><a href="shop.php">Shop no Sidebar</a></li>
                                         <li><a href="#">Product Variation 1</a></li>
-                                        <li><a href="single-product-2.html">Product Variation 2</a></li>
-                                        <li><a href="single-product-3.html">Product Variation 3</a></li>
-                                        <li><a href="single-product-4.html">Product Variation 4</a></li>
-                                        <li><a href="single-product-5.html">Product Variation 5</a></li>
-                                        <li><a href="single-product-6.html">Product Variation 6</a></li>
-                                        <li><a href="single-product-7.html">Product Variation 7</a></li>
-                                        <li><a href="single-product-8.html">Product Variation 8</a></li>
+                                        <li><a href="single-product-2.php">Product Variation 2</a></li>
+                                        <li><a href="single-product-3.php">Product Variation 3</a></li>
+                                        <li><a href="single-product-4.php">Product Variation 4</a></li>
+                                        <li><a href="single-product-5.php">Product Variation 5</a></li>
+                                        <li><a href="single-product-6.php">Product Variation 6</a></li>
+                                        <li><a href="single-product-7.php">Product Variation 7</a></li>
+                                        <li><a href="single-product-8.php">Product Variation 8</a></li>
                                     </ul> -->
                                 </li>
                                 <li class="">
-                                    <a href="our-service.html">Our Service</a>
+                                    <a href="our-service.php">Our Service</a>
                                     <!-- <ul class="axil-submenu">
-                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                        <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="my-account.html">Account</a></li>
-                                        <li><a href="sign-up.html">Sign Up</a></li>
-                                        <li><a href="sign-in.html">Sign In</a></li>
-                                        <li><a href="forgot-password.html">Forgot Password</a></li>
-                                        <li><a href="reset-password.html">Reset Password</a></li>
-                                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="404.html">404 Error</a></li>
-                                        <li><a href="typography.html">Typography</a></li>
+                                        <li><a href="wishlist.php">Wishlist</a></li>
+                                        <li><a href="cart.php">Cart</a></li>
+                                        <li><a href="checkout.php">Checkout</a></li>
+                                        <li><a href="my-account.php">Account</a></li>
+                                        <li><a href="sign-up.php">Sign Up</a></li>
+                                        <li><a href="login.php">Sign In</a></li>
+                                        <li><a href="forgot-password.php">Forgot Password</a></li>
+                                        <li><a href="reset-password.php">Reset Password</a></li>
+                                        <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                                        <li><a href="coming-soon.php">Coming Soon</a></li>
+                                        <li><a href="404.php">404 Error</a></li>
+                                        <li><a href="typography.php">Typography</a></li>
                                     </ul> -->
                                 </li>
 
                                 <li class="">
                                     <a href="#">Blog</a>
                                     <!-- <ul class="axil-submenu">
-                                        <li><a href="blog.html">Blog List</a></li>
-                                        <li><a href="blog-grid.html">Blog Grid</a></li>
-                                        <li><a href="blog-details.html">Standard Post</a></li>
-                                        <li><a href="blog-gallery.html">Gallery Post</a></li>
-                                        <li><a href="blog-video.html">Video Post</a></li>
-                                        <li><a href="blog-audio.html">Audio Post</a></li>
-                                        <li><a href="blog-quote.html">Quote Post</a></li>
+                                        <li><a href="blog.php">Blog List</a></li>
+                                        <li><a href="blog-grid.php">Blog Grid</a></li>
+                                        <li><a href="blog-details.php">Standard Post</a></li>
+                                        <li><a href="blog-gallery.php">Gallery Post</a></li>
+                                        <li><a href="blog-video.php">Video Post</a></li>
+                                        <li><a href="blog-audio.php">Audio Post</a></li>
+                                        <li><a href="blog-quote.php">Quote Post</a></li>
                                     </ul> -->
                                 </li>
-                                <li><a href="contact.html">Contact us</a></li>
+                                <li><a href="contact.php">Contact us</a></li>
                             </ul>
                         </nav>
                         <!-- End Mainmanu Nav -->
@@ -173,7 +173,7 @@
 
                         <ul class="action-list">
 
-                            <a class="nav-item nav-link" href="sign-in.html" aria-selected="false" tabindex="-1"
+                            <a class="nav-item nav-link" href="login.php" aria-selected="false" tabindex="-1"
                                 role="tab"
                                 style="padding: 10px; background-color: red; border-radius: 5px; box-shadow: 1px 2px 10px 0;border: none; color: white;">Login</a>
 
@@ -186,7 +186,7 @@
                                     <span class="title">QUICKLINKS</span>
                                     <ul>
                                         <li>
-                                            <a href="my-account.html">My Account</a>
+                                            <a href="my-account.php">My Account</a>
                                         </li>
                                         <li>
                                             <a href="#">Initiate return</a>
@@ -199,9 +199,9 @@
                                         </li>
                                     </ul>
                                     <div class="login-btn">
-                                        <a href="sign-in.html" class="axil-btn btn-bg-primary">Login</a>
+                                        <a href="login.php" class="axil-btn btn-bg-primary">Login</a>
                                     </div>
-                                    <div class="reg-footer text-center">No account yet? <a href="sign-up.html" class="btn-link">REGISTER HERE.</a></div>
+                                    <div class="reg-footer text-center">No account yet? <a href="sign-up.php" class="btn-link">REGISTER HERE.</a></div>
                                 </div>
                             </li> -->
                             <li class="axil-mobile-toggle ml-10">
@@ -226,7 +226,7 @@
                     <div class="col-lg-6 col-md-8">
                         <div class="inner">
                             <ul class="axil-breadcrumb">
-                                <li class="axil-breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="axil-breadcrumb-item"><a href="index.php">Home</a></li>
                                 <li class="separator"></li>
                                 <li class="axil-breadcrumb-item active" aria-current="page">Our Service</li>
                             </ul>
@@ -289,7 +289,7 @@
                                 <li><strong>Delivery:</strong> Your desktop is returned to you, functioning seamlessly.</li>
                               </ol>
 
-                            <a href="contact.html" class="axil-btn btn-outline">Get In Touch</a>
+                            <a href="contact.php" class="axil-btn btn-outline">Get In Touch</a>
                         </div>
                     </div>
                 </div>
@@ -331,7 +331,7 @@
                                 <li><strong>Quality Assurance:</strong> We conduct thorough testing post-service to ensure your laptop is in top-notch condition.</li>
                                 <li><strong>Delivery and Follow-Up:</strong> Get your laptop back, better than ever. We are here for any further assistance or advice.</li>
                               </ol>
-                            <a href="contact.html" class="axil-btn btn-outline">Get In Touch</a>
+                            <a href="contact.php" class="axil-btn btn-outline">Get In Touch</a>
                         </div>
                     </div>
                 </div>
@@ -365,7 +365,7 @@
                                 <li><strong>Daily  backups</strong> Designed to  back up files using  the modification date on the file itself. If a file has  been modified  on the same day as the backup, the file will be backed up. This   technique doesn't change the archive attributes of files.</li>
                             </ul>
 
-                            <a href="contact.html" class="axil-btn btn-outline">Get In Touch</a>
+                            <a href="contact.php" class="axil-btn btn-outline">Get In Touch</a>
                         </div>
                     </div>
                 </div>
@@ -386,7 +386,7 @@
                            <p>We have a powerful tool to remove any kind of threats  from your Pc’s without any data loss.</p>
                            <p> We install only genuine Security product in your  systems to protect from Virus and other internet Threats.</p>
                            <p> We teach our customer’s how to keep their computers  protected and  prevention ideas by creating parental controls to limit the  internet  usage by their children’s.</p>
-                            <a href="contact.html" class="axil-btn btn-outline">Get In Touch</a>
+                            <a href="contact.php" class="axil-btn btn-outline">Get In Touch</a>
                         </div>
                     </div>
                 </div>
@@ -407,7 +407,7 @@
                             <p>We have a latest model scanning machines to find out the problems and replace any kind of integrated chip on the board like Pc’s Mother board, Laptop, Printers, Power supply Unit, Monitor and any Pc accessories.</p>
                       
 
-                            <a href="contact.html" class="axil-btn btn-outline">Get In Touch</a>
+                            <a href="contact.php" class="axil-btn btn-outline">Get In Touch</a>
                         </div>
                     </div>
                 </div>
@@ -433,7 +433,7 @@
                             <p> On-site support </p>
                             <p>We offer phone and on-site support as well as support for a wide range of hardware. We aim to provide you with the highest possible level of customer service. When you call us we assign you with an experienced technician who can provide you with an 'end-to-end' resolution to your problem. Our technician will assess your situation, before recommending a course of action. If it is necessary to buy new parts or software than the technician will install these and ensure that you have a working system.</p>
                    
-                            <a href="contact.html" class="axil-btn btn-outline">Get In Touch</a>
+                            <a href="contact.php" class="axil-btn btn-outline">Get In Touch</a>
                         </div>
                     </div>
                 </div>
@@ -525,7 +525,7 @@
                         <div class="axil-footer-widget">
                             <h5 class="widget-title">Support</h5>
                             <!-- <div class="logo mb--30">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img class="light-logo" src="assets/images/logo/logo.png" alt="Logo Images">
                             </a>
                         </div> -->
@@ -547,8 +547,8 @@
                             <h5 class="widget-title">Account</h5>
                             <div class="inner">
                                 <ul>
-                                    <li><a href="my-account.html">My Account</a></li>
-                                    <li><a href="sign-up.html">Login / Register</a></li>
+                                    <li><a href="my-account.php">My Account</a></li>
+                                    <li><a href="sign-up.php">Login / Register</a></li>
                                   
                                 </ul>
                             </div>
@@ -561,11 +561,11 @@
                             <h5 class="widget-title">Quick Link</h5>
                             <div class="inner">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about-us.html">About us</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="about-us.php">About us</a></li>
                                     <li><a href="#">Our Products</a></li>
-                                    <li><a href="#">Our Services</a></li>
-                                    <li><a href="contact.html">Contact us</a></li>
+                                    <li><a href="our-service.php">Our Services</a></li>
+                                    <li><a href="contact.php">Contact us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -772,9 +772,9 @@
 
                                             <!-- Start Product Action  -->
                                             <ul class="product-action d-flex-center mb--0">
-                                                <li class="add-to-cart"><a href="cart.html"
+                                                <li class="add-to-cart"><a href="cart.php"
                                                         class="axil-btn btn-bg-primary">Get Quote</a></li>
-                                                <li class="wishlist"><a href="wishlist.html"
+                                                <li class="wishlist"><a href="wishlist.php"
                                                         class="axil-btn wishlist-btn"><i class="far fa-heart"></i></a>
                                                 </li>
                                             </ul>
@@ -809,7 +809,7 @@
             <div class="card-body">
                 <div class="search-result-header">
                     <h6 class="title">24 Result Found</h6>
-                    <a href="shop.html" class="view-all">View All</a>
+                    <a href="shop.php" class="view-all">View All</a>
                 </div>
                 <div class="psearch-results">
                     <div class="axil-product-list">
@@ -835,8 +835,8 @@
                                 <span class="price old-price">₹100.99</span>
                             </div>
                             <div class="product-cart">
-                                <a href="cart.html" class="cart-btn"><i class="fal fa-shopping-cart"></i></a>
-                                <a href="wishlist.html" class="cart-btn"><i class="fal fa-heart"></i></a>
+                                <a href="cart.php" class="cart-btn"><i class="fal fa-shopping-cart"></i></a>
+                                <a href="wishlist.php" class="cart-btn"><i class="fal fa-heart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -863,8 +863,8 @@
                                 <span class="price old-price">₹100.99</span>
                             </div>
                             <div class="product-cart">
-                                <a href="cart.html" class="cart-btn"><i class="fal fa-shopping-cart"></i></a>
-                                <a href="wishlist.html" class="cart-btn"><i class="fal fa-heart"></i></a>
+                                <a href="cart.php" class="cart-btn"><i class="fal fa-shopping-cart"></i></a>
+                                <a href="wishlist.php" class="cart-btn"><i class="fal fa-heart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -901,7 +901,7 @@
                                 </span>
                                 <span class="rating-number">(64)</span>
                             </div>
-                            <h3 class="item-title"><a href="single-product-3.html">Wireless PS Handler</a></h3>
+                            <h3 class="item-title"><a href="single-product-3.php">Wireless PS Handler</a></h3>
                             <div class="item-price"><span class="currency-symbol">$</span>155.00</div>
                             <div class="pro-qty item-quantity">
                                 <input type="number" class="quantity-input" value="15">
@@ -910,7 +910,7 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-2.html"><img src="assets/images/product/electric/product-02.png"
+                            <a href="single-product-2.php"><img src="assets/images/product/electric/product-02.png"
                                     alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
@@ -925,7 +925,7 @@
                                 </span>
                                 <span class="rating-number">(4)</span>
                             </div>
-                            <h3 class="item-title"><a href="single-product-2.html">Gradient Light Keyboard</a></h3>
+                            <h3 class="item-title"><a href="single-product-2.php">Gradient Light Keyboard</a></h3>
                             <div class="item-price"><span class="currency-symbol">$</span>255.00</div>
                             <div class="pro-qty item-quantity">
                                 <input type="number" class="quantity-input" value="5">
@@ -934,7 +934,7 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-3.html"><img src="assets/images/product/electric/product-03.png"
+                            <a href="single-product-3.php"><img src="assets/images/product/electric/product-03.png"
                                     alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
@@ -964,8 +964,8 @@
                     <span class="subtotal-amount">$610.00</span>
                 </h3>
                 <div class="group-btn">
-                    <a href="cart.html" class="axil-btn btn-bg-primary viewcart-btn">View Cart</a>
-                    <a href="checkout.html" class="axil-btn btn-bg-secondary checkout-btn">Checkout</a>
+                    <a href="cart.php" class="axil-btn btn-bg-primary viewcart-btn">View Cart</a>
+                    <a href="checkout.php" class="axil-btn btn-bg-secondary checkout-btn">Checkout</a>
                 </div>
             </div>
         </div>

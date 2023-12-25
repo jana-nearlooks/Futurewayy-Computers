@@ -1,3 +1,9 @@
+
+<?php
+
+    include 'conixion.php';
+    include 'login-connection.php'
+?>
 <!DOCTYPE html>
 
 
@@ -8,19 +14,40 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
         <meta charset="utf-8">
-        <link href="dist/images/logo.svg" rel="shortcut icon">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Midone admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
         <meta name="keywords" content="admin template, Midone Admin Template, dashboard template, flat admin template, responsive admin template, web app">
+        
         <meta name="author" content="LEFT4CODE">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Dashboard - Midone - Tailwind HTML Admin Template</title>
+        <title>Futureway - Dashboard</title>
         <!-- BEGIN: CSS Assets-->
         <link rel="stylesheet" href="dist/css/app.css" />
         <!-- END: CSS Assets-->
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     </head>
     <!-- END: Head -->
     <body class="py-5">
+    <?php 
+           
+            include 'conixion.php';
+            $nbr_requester = $con->query("SELECT * FROM requester_list");
+            $nbr_requester = $nbr_requester->rowCount();
+
+            // Get counts for each status
+$pending_count = $con->query("SELECT * FROM requester_list WHERE RequestStatus = 'Pending'");
+$ongoing_count = $con->query("SELECT * FROM requester_list WHERE RequestStatus = 'On Going'");
+$completed_count = $con->query("SELECT * FROM requester_list WHERE RequestStatus = 'Completed'");
+
+$pending_count = $pending_count->rowCount();
+$ongoing_count = $ongoing_count->rowCount();
+$completed_count = $completed_count->rowCount();
+        
+
+
+
+        ?>
         <!-- BEGIN: Mobile Menu -->
         <div class="mobile-menu md:hidden">
             <div class="mobile-menu-bar">
@@ -33,7 +60,7 @@
                 <a href="javascript:;" class="mobile-menu-toggler"> <i data-lucide="x-circle" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
                 <ul class="scrollable__content py-2">
                     <li>
-                        <a href="Dashboard.html" class="menu menu--active">
+                        <a href="Dashboard.php" class="menu menu--active">
                             <div class="menu__icon"> <i data-lucide="home"></i> </div>
                             <div class="menu__title"> Dashboard </div>
                         </a>
@@ -42,25 +69,25 @@
 
                  
                     <li>
-                        <a href="workorder.html" class="menu">
+                        <a href="#" class="menu">
                             <div class="menu__icon"> <i data-lucide="inbox"></i> </div>
                             <div class="menu__title"> Work Order </div>
                         </a>
                     </li>
                     <li>
-                        <a href="request.html" class="menu">
+                        <a href="request.php" class="menu">
                             <div class="menu__icon"> <i data-lucide="hard-drive"></i> </div>
                             <div class="menu__title"> Requests </div>
                         </a>
                     </li>
                     <li>
-                        <a href="technician.html" class="menu">
+                        <a href="#" class="menu">
                             <div class="menu__icon"> <i data-lucide="settings"></i> </div>
                             <div class="menu__title"> Technician </div>
                         </a>
                     </li>
                     <li>
-                        <a href="customers.html" class="menu">
+                        <a href="#" class="menu">
                             <div class="menu__icon"> <i data-lucide="users"></i> </div>
                             <div class="menu__title"> Customers </div>
                         </a>
@@ -80,7 +107,7 @@
                 <div class="side-nav__devider my-6"></div>
                 <ul>
                     <li>
-                        <a href="Dashboard.html" class="side-menu side-menu--active">
+                        <a href="Dashboard.php" class="side-menu side-menu--active">
                             <div class="side-menu__icon"> <i data-lucide="home"></i> </div>
                             <div class="side-menu__title">
                                 Dashboard
@@ -90,37 +117,37 @@
                     </li>
              
                     <li>
-                        <a href="workorder.html" class="side-menu">
+                        <a href="#" class="side-menu">
                             <div class="side-menu__icon"> <i data-lucide="inbox"></i> </div>
                             <div class="side-menu__title"> Work Order</div>
                         </a>
                     </li>
                     <li>
-                        <a href="request.html" class="side-menu">
+                        <a href="request.php" class="side-menu">
                             <div class="side-menu__icon"> <i data-lucide="hard-drive"></i> </div>
                             <div class="side-menu__title"> Requests </div>
                         </a>
                     </li>
                     <li>
-                        <a href="technician.html" class="side-menu">
+                        <a href="#" class="side-menu">
                             <div class="side-menu__icon"> <i data-lucide="credit-card"></i> </div>
                             <div class="side-menu__title"> Technician </div>
                         </a>
                     </li>
                     <li>
-                        <a href="customers.html" class="side-menu">
+                        <a href="#" class="side-menu">
                             <div class="side-menu__icon"> <i data-lucide="message-square"></i> </div>
                             <div class="side-menu__title"> Customers </div>
                         </a>
                     </li>
                     <!-- <li>
-                        <a href="side-menu-light-post.html" class="side-menu">
+                        <a href="side-menu-light-post.php" class="side-menu">
                             <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
                             <div class="side-menu__title"> Change Password </div>
                         </a>
                     </li>
                     <li>
-                        <a href="side-menu-light-calendar.html" class="side-menu">
+                        <a href="side-menu-light-calendar.php" class="side-menu">
                             <div class="side-menu__icon"> <i data-lucide="calendar"></i> </div>
                             <div class="side-menu__title"> Logout </div>
                         </a>
@@ -203,40 +230,49 @@
                                         <div class="box p-5">
                                             <div class="flex">
                                                 <i class="fa fa-bell" style="font-size:36px"></i>
-                                                <div class="ml-auto">
-                                                    <div class="report-box__indicator bg-success tooltip cursor-pointer" title="33% Higher than last month"> 33% <i data-lucide="chevron-up" class="w-4 h-4 ml-0.5"></i> </div>
-                                                </div>
+                                                
                                             </div>
-                                            <div class="text-3xl font-medium leading-8 mt-6">4.710</div>
+                                            <div class="text-3xl font-medium leading-8 mt-6"><?php echo $nbr_requester; ?></div>
                                             <div class="text-base text-slate-500 mt-1">Request Received</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
+                                    <div class="report-box zoom-in" >
+                                        <div class="box p-5"  style="background-color:#FF6865">
+                                            <div class="flex">
+                                                <i class="fa fa-hourglass-half" style="font-size:34px; "></i>
+                                            
+                                            </div>
+                                            <div class="text-3xl font-medium leading-8 mt-6"><?php echo $pending_count; ?></div>
+                                            <div class="text-base text-slate-500 mt-1" style="color:black">Pending</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
                                     <div class="report-box zoom-in">
-                                        <div class="box p-5">
+                                        <div class="box p-5" style="background-color:#73BDE5">
                                             <div class="flex">
-                                                <i class="fa fa-hourglass-half" style="font-size:34px"></i>
-                                                <div class="ml-auto">
-                                                    <div class="report-box__indicator bg-danger tooltip cursor-pointer" title="2% Lower than last month"> 2% <i data-lucide="chevron-down" class="w-4 h-4 ml-0.5"></i> </div>
-                                                </div>
+                                            
+                                                <i class="fa fa-gear" style="font-size:36px"></i>
+                                             
+                                          
                                             </div>
-                                            <div class="text-3xl font-medium leading-8 mt-6">3.721</div>
-                                            <div class="text-base text-slate-500 mt-1">Assigned Works</div>
+                                            <div class="text-3xl font-medium leading-8 mt-6"><?php echo $ongoing_count; ?></div>
+                                            <div class="text-base text-slate-500 mt-1" style="color:black">On Going</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-span-12 sm:col-span-6 xl:col-span-3 intro-y">
                                     <div class="report-box zoom-in">
-                                        <div class="box p-5">
+                                        <div class="box p-5" style="background-color:#8BE78B">
                                             <div class="flex">
-                                                <i class="fa fa-users" style="font-size:36px"></i>
-                                                <div class="ml-auto">
-                                                    <div class="report-box__indicator bg-success tooltip cursor-pointer" title="12% Higher than last month"> 12% <i data-lucide="chevron-up" class="w-4 h-4 ml-0.5"></i> </div>
-                                                </div>
+                                                <i class="fa fa-check" style="font-size:36px"></i>
+                                               
                                             </div>
-                                            <div class="text-3xl font-medium leading-8 mt-6">2.149</div>
-                                            <div class="text-base text-slate-500 mt-1">No of Technician</div>
+                                            <div class="text-3xl font-medium leading-8 mt-6"><?php echo $completed_count; ?></div>
+                                            <div class="text-base text-slate-500 mt-1" style="color:black">Completed</div>
                                         </div>
                                     </div>
                                 </div>
@@ -249,10 +285,10 @@
                                 <h2 class="text-lg font-medium truncate mr-5">
                                     List Of Customers
                                 </h2>
-                                <div class="flex items-center sm:ml-auto mt-3 sm:mt-0">
+                                <!-- <div class="flex items-center sm:ml-auto mt-3 sm:mt-0">
                                     <button class="btn box flex items-center text-slate-600 dark:text-slate-300"> <i data-lucide="file-text" class="hidden sm:block w-4 h-4 mr-2"></i> Export to Excel </button>
                                     <button class="ml-3 btn box flex items-center text-slate-600 dark:text-slate-300"> <i data-lucide="file-text" class="hidden sm:block w-4 h-4 mr-2"></i> Export to PDF </button>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="intro-y overflow-auto lg:overflow-visible mt-8 sm:mt-0">
                                 <table class="table table-report sm:mt-2">
@@ -261,125 +297,41 @@
                                             <th class="whitespace-nowrap">CUSTOMER ID</th>
                                             <th class="whitespace-nowrap">CUSTOMER NAME</th>
                                             <th class="text-center whitespace-nowrap">EMAIL</th>
+                                            <th class="text-center whitespace-nowrap">MOBILE</th>
                                             <th class="text-center whitespace-nowrap">STATUS</th>
                                             <th class="text-center whitespace-nowrap">ACTIONS</th>
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    <?php
+                          include 'conixion.php';
+                          $result = $con -> query("SELECT * FROM requester_list");
+                          foreach($result as $value):
+                        ?>
                                         <tr class="intro-x">
-                                            <td class="w-40">CUST001</td>                       
+                                            <td class="w-40">FW<?php echo $value['Id'] ?></td>                       
                                       
                                             <td>
-                                                <a href="#" class="font-medium whitespace-nowrap">Janakrishnamoorthy</a> 
-                                                <div class="text-slate-500 text-xs whitespace-nowrap mt-0.5">jana@gmail.com</div>
+                                            <?php echo $value['RequestName'] ?>
                                             </td>
-                                            <td class="text-center">Janakrishnamoorthy@gmail.com</td>
+                                            <td class="text-center"><?php echo $value['RequesterEmail'] ?></td>
+                                            <td class="text-center"><?php echo $value['RequesterMobile'] ?></td>
                                             <td class="w-40">
                                                 <div class="flex items-center justify-center text-success"> <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Active </div>
                                             </td>
                                             <td class="table-report__action w-56">
                                                 <div class="flex justify-center items-center">
-                                                    <a class="flex items-center mr-3" href="#"> <i data-lucide="check-square" class="w-4 h-4 mr-1"></i> Edit </a>
-                                                    <a class="flex items-center text-danger" href="#"> <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
+                                                <a class="flex items-center mr-3" href="requester-edit.php?Id=<?php echo $value['Id']?>"><i data-lucide="check-square" class="w-4 h-4 ml-2"></i> Edit </a>
+                                                    <a class="flex items-center text-danger" href="remove.php?Id=<?php echo $value['Id']?>"> <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
                                                 </div>
                                             </td>
                                         </tr>
 
-                                        <tr class="intro-x">
-                                            <td class="w-40">CUST001</td>                       
-                                      
-                                            <td>
-                                                <a href="#" class="font-medium whitespace-nowrap">Zubair</a> 
-                                                <div class="text-slate-500 text-xs whitespace-nowrap mt-0.5">zubair@gmail.com</div>
-                                            </td>
-                                            <td class="text-center">zubair@gmail.com</td>
-                                            <td class="w-40">
-                                                <div class="flex items-center justify-center text-success"> <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Active </div>
-                                            </td>
-                                            <td class="table-report__action w-56">
-                                                <div class="flex justify-center items-center">
-                                                    <a class="flex items-center mr-3" href="#"> <i data-lucide="check-square" class="w-4 h-4 mr-1"></i> Edit </a>
-                                                    <a class="flex items-center text-danger" href="#"> <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr class="intro-x">
-                                            <td class="w-40">CUST003</td>                       
-                                      
-                                            <td>
-                                                <a href="#" class="font-medium whitespace-nowrap">Poornesh</a> 
-                                                <div class="text-slate-500 text-xs whitespace-nowrap mt-0.5">jana@gmail.com</div>
-                                            </td>
-                                            <td class="text-center">Janakrishnamoorthy@gmail.com</td>
-                                            <td class="w-40">
-                                                <div class="flex items-center justify-center text-success"> <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Active </div>
-                                            </td>
-                                            <td class="table-report__action w-56">
-                                                <div class="flex justify-center items-center">
-                                                    <a class="flex items-center mr-3" href="#"> <i data-lucide="check-square" class="w-4 h-4 mr-1"></i> Edit </a>
-                                                    <a class="flex items-center text-danger" href="#"> <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr class="intro-x">
-                                            <td class="w-40">CUST001</td>                       
-                                      
-                                            <td>
-                                                <a href="#" class="font-medium whitespace-nowrap">Janakrishnamoorthy</a> 
-                                                <div class="text-slate-500 text-xs whitespace-nowrap mt-0.5">jana@gmail.com</div>
-                                            </td>
-                                            <td class="text-center">Janakrishnamoorthy@gmail.com</td>
-                                            <td class="w-40">
-                                                <div class="flex items-center justify-center text-success"> <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Active </div>
-                                            </td>
-                                            <td class="table-report__action w-56">
-                                                <div class="flex justify-center items-center">
-                                                    <a class="flex items-center mr-3" href="#"> <i data-lucide="check-square" class="w-4 h-4 mr-1"></i> Edit </a>
-                                                    <a class="flex items-center text-danger" href="#"> <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr class="intro-x">
-                                            <td class="w-40">CUST001</td>                       
-                                      
-                                            <td>
-                                                <a href="#" class="font-medium whitespace-nowrap">Janakrishnamoorthy</a> 
-                                                <div class="text-slate-500 text-xs whitespace-nowrap mt-0.5">jana@gmail.com</div>
-                                            </td>
-                                            <td class="text-center">Janakrishnamoorthy@gmail.com</td>
-                                            <td class="w-40">
-                                                <div class="flex items-center justify-center text-success"> <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Active </div>
-                                            </td>
-                                            <td class="table-report__action w-56">
-                                                <div class="flex justify-center items-center">
-                                                    <a class="flex items-center mr-3" href="#"> <i data-lucide="check-square" class="w-4 h-4 mr-1"></i> Edit </a>
-                                                    <a class="flex items-center text-danger" href="#"> <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr class="intro-x">
-                                            <td class="w-40">CUST001</td>                       
-                                      
-                                            <td>
-                                                <a href="#" class="font-medium whitespace-nowrap">Janakrishnamoorthy</a> 
-                                                <div class="text-slate-500 text-xs whitespace-nowrap mt-0.5">jana@gmail.com</div>
-                                            </td>
-                                            <td class="text-center">Janakrishnamoorthy@gmail.com</td>
-                                            <td class="w-40">
-                                                <div class="flex items-center justify-center text-success"> <i data-lucide="check-square" class="w-4 h-4 mr-2"></i> Active </div>
-                                            </td>
-                                            <td class="table-report__action w-56">
-                                                <div class="flex justify-center items-center">
-                                                    <a class="flex items-center mr-3" href="#"> <i data-lucide="check-square" class="w-4 h-4 mr-1"></i> Edit </a>
-                                                    <a class="flex items-center text-danger" href="#"> <i data-lucide="trash-2" class="w-4 h-4 mr-1"></i> Delete </a>
-                                                </div>
-                                            </td>
-                                        </tr> 
-                                      
+                                        <?php endforeach; ?>
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="intro-y flex flex-wrap sm:flex-row sm:flex-nowrap items-center mt-3">
+                            <!-- <div class="intro-y flex flex-wrap sm:flex-row sm:flex-nowrap items-center mt-3">
                                 <nav class="w-full sm:w-auto sm:mr-auto">
                                     <ul class="pagination">
                                         <li class="page-item">
@@ -407,7 +359,7 @@
                                     <option>35</option>
                                     <option>50</option>
                                 </select>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- END: Weekly Top Products -->
                     </div>
@@ -425,5 +377,5 @@
         <!-- END: JS Assets-->
     </body>
 
-<!-- Mirrored from rubick-html.vercel.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2023 05:52:48 GMT -->
+<!-- Mirrored from rubick-html.vercel.app/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2023 05:52:48 GMT -->
 </html>

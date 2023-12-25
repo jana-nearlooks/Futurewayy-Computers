@@ -1,10 +1,15 @@
+<?php
+
+    include 'conixion.php';
+    include 'login-connection.php'
+?>
 <!DOCTYPE html>
 
 
 <html lang="en" class="light">
     <!-- BEGIN: Head -->
     
-<!-- Mirrored from rubick-html.vercel.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2023 05:52:26 GMT -->
+<!-- Mirrored from rubick-html.vercel.app/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2023 05:52:26 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
         <meta charset="utf-8">
@@ -14,62 +19,62 @@
         <meta name="keywords" content="admin template, Midone Admin Template, dashboard template, flat admin template, responsive admin template, web app">
         <meta name="author" content="LEFT4CODE">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Futurewayy - Technician</title>
+        <title>Futurewayy - Customers</title>
         <!-- BEGIN: CSS Assets-->
         <link rel="stylesheet" href="dist/css/app.css" />
         <!-- END: CSS Assets-->
     </head>
     <!-- END: Head -->
     <body class="py-5">
-        <!-- BEGIN: Mobile Menu -->
-        <div class="mobile-menu md:hidden">
-            <div class="mobile-menu-bar">
-                <a href="#" class="flex mr-auto">
-                    <img alt="Midone - HTML Admin Template" class="w-6" src="assets/images/logo/favicon.png">
-                </a>
-                <a href="javascript:;" class="mobile-menu-toggler"> <i data-lucide="bar-chart-2" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
-            </div>
-            <div class="scrollable">
-                <a href="javascript:;" class="mobile-menu-toggler"> <i data-lucide="x-circle" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
-                <ul class="scrollable__content py-2">
-                    <li>
-                        <a href="Dashboard.html" class="menu menu--active">
-                            <div class="menu__icon"> <i data-lucide="home"></i> </div>
-                            <div class="menu__title"> Dashboard </div>
-                        </a>
-                     
-                    </li>
-
-                 
-                    <li>
-                        <a href="workorder.html" class="menu">
-                            <div class="menu__icon"> <i data-lucide="inbox"></i> </div>
-                            <div class="menu__title"> Work Order </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="request.html" class="menu">
-                            <div class="menu__icon"> <i data-lucide="hard-drive"></i> </div>
-                            <div class="menu__title"> Requests </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="technician.html" class="menu">
-                            <div class="menu__icon"> <i data-lucide="settings"></i> </div>
-                            <div class="menu__title"> Technician </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="customers.html" class="menu">
-                            <div class="menu__icon"> <i data-lucide="users"></i> </div>
-                            <div class="menu__title"> Customers </div>
-                        </a>
-                    </li>
-                   
-                </ul>
-            </div>
+       <!-- BEGIN: Mobile Menu -->
+       <div class="mobile-menu md:hidden">
+        <div class="mobile-menu-bar">
+            <a href="#" class="flex mr-auto">
+                <img alt="Midone - HTML Admin Template" class="w-6" src="assets/images/logo/favicon.png">
+            </a>
+            <a href="javascript:;" class="mobile-menu-toggler"> <i data-lucide="bar-chart-2" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
         </div>
-        <!-- END: Mobile Menu -->
+        <div class="scrollable">
+            <a href="javascript:;" class="mobile-menu-toggler"> <i data-lucide="x-circle" class="w-8 h-8 text-white transform -rotate-90"></i> </a>
+            <ul class="scrollable__content py-2">
+                <li>
+                    <a href="Dashboard.php" class="menu menu--active">
+                        <div class="menu__icon"> <i data-lucide="home"></i> </div>
+                        <div class="menu__title"> Dashboard </div>
+                    </a>
+                 
+                </li>
+
+             
+                <li>
+                    <a href="#" class="menu">
+                        <div class="menu__icon"> <i data-lucide="inbox"></i> </div>
+                        <div class="menu__title"> Work Order </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="request.php" class="menu">
+                        <div class="menu__icon"> <i data-lucide="hard-drive"></i> </div>
+                        <div class="menu__title"> Requests </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="menu">
+                        <div class="menu__icon"> <i data-lucide="settings"></i> </div>
+                        <div class="menu__title"> Technician </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="menu">
+                        <div class="menu__icon"> <i data-lucide="users"></i> </div>
+                        <div class="menu__title"> Customers </div>
+                    </a>
+                </li>
+               
+            </ul>
+        </div>
+    </div>
+    <!-- END: Mobile Menu -->
         <div class="flex mt-[4.7rem] md:mt-0">
             <!-- BEGIN: Side Menu -->
             <nav class="side-nav">
@@ -80,7 +85,7 @@
                 <div class="side-nav__devider my-6"></div>
                 <ul>
                     <li>
-                        <a href="Dashboard.html" class="side-menu ">
+                        <a href="Dashboard.php" class="side-menu ">
                             <div class="side-menu__icon"> <i data-lucide="home"></i> </div>
                             <div class="side-menu__title">
                                 Dashboard 
@@ -91,37 +96,37 @@
                     </li>
              
                     <li>
-                        <a href="workorder.html" class="side-menu ">
+                        <a href="#" class="side-menu ">
                             <div class="side-menu__icon"> <i data-lucide="inbox"></i> </div>
                             <div class="side-menu__title"> Work Order</div>
                         </a>
                     </li>
                     <li>
-                        <a href="request.html" class="side-menu" >
+                        <a href="request.php" class="side-menu" >
                             <div class="side-menu__icon"> <i data-lucide="hard-drive"></i> </div>
                             <div class="side-menu__title"> Requests </div>
                         </a>
                     </li>
                     <li>
-                        <a href="technician.html" class="side-menu side-menu--active">
+                        <a href="#" class="side-menu ">
                             <div class="side-menu__icon"> <i data-lucide="settings"></i> </div>
                             <div class="side-menu__title"> Technician </div>
                         </a>
                     </li>
                     <li>
-                        <a href="customers.html" class="side-menu">
+                        <a href="#" class="side-menu side-menu--active">
                             <div class="side-menu__icon"> <i data-lucide="users"></i> </div>
                             <div class="side-menu__title"> Customers </div>
                         </a>
                     </li>
                     <!-- <li>
-                        <a href="side-menu-light-post.html" class="side-menu">
+                        <a href="side-menu-light-post.php" class="side-menu">
                             <div class="side-menu__icon"> <i data-lucide="file-text"></i> </div>
                             <div class="side-menu__title"> Change Password </div>
                         </a>
                     </li>
                     <li>
-                        <a href="side-menu-light-calendar.html" class="side-menu">
+                        <a href="side-menu-light-calendar.php" class="side-menu">
                             <div class="side-menu__icon"> <i data-lucide="calendar"></i> </div>
                             <div class="side-menu__title"> Logout </div>
                         </a>
@@ -138,7 +143,7 @@
                     <nav aria-label="breadcrumb" class="-intro-x mr-auto hidden sm:flex">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">Application</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Technician</li>
+                            <li class="breadcrumb-item active" aria-current="page">Customers</li>
                         </ol>
                     </nav>
                     <!-- END: Breadcrumb -->
@@ -197,7 +202,7 @@
                                     Welcome to Futurewayy Computers
                                 </h2>
                           
-                                <button class="btn btn-primary shadow-md mr-2 ml-auto flex items-center "> <i data-lucide="plus-square" class="hidden sm:block w-4 h-4 mr-2"></i>Add Technician</button>
+                                <button class="btn btn-primary shadow-md mr-2 ml-auto flex items-center "> <i data-lucide="plus-square" class="hidden sm:block w-4 h-4 mr-2"></i>Add Customers</button>
                             </div>
                       
                         </div>
@@ -206,7 +211,7 @@
                             <div class="intro-y block sm:flex items-center h-10">
                                 
                                 <h2 class="text-lg font-medium truncate mr-5">
-                                   List of Technicians
+                                   List of Customers
                                 </h2>
                                 <div class="flex items-center sm:ml-auto mt-3 sm:mt-0">
                                     <button class="btn box flex items-center text-slate-600 dark:text-slate-300"> <i data-lucide="file-text" class="hidden sm:block w-4 h-4 mr-2"></i> Export to Excel </button>
@@ -217,9 +222,9 @@
                                 <table class="table table-report sm:mt-2">
                                     <thead>
                                         <tr>
-                                            <th class="text-center whitespace-nowrap">EMP ID</th>
+                                            <th class="text-center whitespace-nowrap">CUSTOMER ID</th>
                                             <th class="text-center whitespace-nowrap">NAME</th>
-                                            <th class="text-center whitespace-nowrap">ADDRESS</th>
+                                          
                                          
                                             <th class="text-center whitespace-nowrap">MOBILE</th>
                                             <th class="text-center whitespace-nowrap">EMAIL</th>
@@ -229,13 +234,13 @@
                                     </thead>
                                     <tbody>
                                         <tr class="intro-x">
-                                            <td class="w-100">EMP001</td>                       
+                                            <td class="w-100">CUST001</td>                       
                                       
                                             <td class="w-100">
                                                 <a href="#" class="font-medium whitespace-nowrap">Janakrishnamoorthy</a> 
                                                 <div class="text-slate-500 text-xs whitespace-nowrap mt-0.5">jana@gmail.com</div>
                                             </td>
-                                            <td class="w-100">abcd, theni, tamilnadu</td>
+                          
                                          
                                             <td class="w-100">9876543210</td>
                                             <td class="text-center">Janakrishnamoorthy@gmail.com</td>
@@ -302,5 +307,5 @@
         <!-- END: JS Assets-->
     </body>
 
-<!-- Mirrored from rubick-html.vercel.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2023 05:52:48 GMT -->
+<!-- Mirrored from rubick-html.vercel.app/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2023 05:52:48 GMT -->
 </html>

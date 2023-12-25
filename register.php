@@ -11,7 +11,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <html lang="en" class="light">
     <!-- BEGIN: Head -->
     
-<!-- Mirrored from rubick-html.vercel.app/login-light-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2023 05:53:25 GMT -->
+<!-- Mirrored from rubick-html.vercel.app/login-light-register.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2023 05:53:25 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
         <meta charset="utf-8">
@@ -74,7 +74,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         </div>
                         <div class="intro-x mt-5 xl:mt-8 text-center xl:text-left">
                             <button class="btn btn-primary py-3 px-4 w-full xl:w-32 xl:mr-3 align-top">Register</button>
-                           <a href="login.html"><button class="btn btn-outline-secondary py-3 px-4 w-full xl:w-32 mt-3 xl:mt-0 align-top">Sign in</button></a>
+                           <a href="login.php"><button class="btn btn-outline-secondary py-3 px-4 w-full xl:w-32 mt-3 xl:mt-0 align-top">Sign in</button></a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ License: You must have a valid license purchased only from themeforest(the above
             </div>
         </div>
         <!-- BEGIN: Dark Mode Switcher-->
-        <div data-url="login-dark-register.html" class="dark-mode-switcher cursor-pointer shadow-md fixed bottom-0 right-0 box border rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 mr-10">
+        <div data-url="login-dark-register.php" class="dark-mode-switcher cursor-pointer shadow-md fixed bottom-0 right-0 box border rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 mr-10">
             <div class="mr-4 text-slate-600 dark:text-slate-200">Dark Mode</div>
             <div class="dark-mode-switcher__toggle border"></div>
         </div>
@@ -93,5 +93,5 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- END: JS Assets-->
     </body>
 
-<!-- Mirrored from rubick-html.vercel.app/login-light-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2023 05:53:25 GMT -->
+<!-- Mirrored from rubick-html.vercel.app/login-light-register.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 15 Dec 2023 05:53:25 GMT -->
 </html>
