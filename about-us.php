@@ -39,7 +39,7 @@
         <div class="header-top-campaign mb-4">
             <div class="container position-relative">
                 <div class="campaign-content">
-                    <p>Open Doors To A World Of Fashion <a href="#">Discover More</a></p>
+                       <p>Looking for a best digital marketing in theni <a href="https://nearlooks.com/" target="_blank">Discover More</a></p>
                 </div>
             </div>
             <button class="remove-campaign"><i class="fal fa-times"></i></button>
@@ -95,6 +95,32 @@
                         <a href="index.php" class="logo logo-light">
                             <img src="assets/images/logo/logo.png" alt="Site Logo" style="width: 200px;">
                         </a>
+
+                        <style>
+    /* Styles for the logo */
+    .logo.logo-dark img {
+        width: 200px;
+    }
+
+    /* Keyframe animation for pulse effect */
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    /* Apply the pulse animation to the logo */
+    .logo.logo-dark img {
+        animation: pulse 1s infinite;
+    }
+</style>
+
                     </div>
                     <div class="header-main-nav">
                         <!-- Start Mainmanu Nav -->
@@ -120,10 +146,10 @@
                                 </li>
                                 <li><a href="about-us.php">About us</a></li>
                                 <li class="">
-                                    <a href="#">Our Products</a>
+                                    <a href="our-products.php">Our Products</a>
                                     <!-- <ul class="axil-submenu">
                                         <li><a href="shop-sidebar.php">Shop With Sidebar</a></li>
-                                        <li><a href="shop.php">Shop no Sidebar</a></li>
+                                        <li><a href="our-products.php">Shop no Sidebar</a></li>
                                         <li><a href="#">Product Variation 1</a></li>
                                         <li><a href="single-product-2.php">Product Variation 2</a></li>
                                         <li><a href="single-product-3.php">Product Variation 3</a></li>
@@ -173,9 +199,8 @@
 
                         <ul class="action-list">
 
-                            <a class="nav-item nav-link" href="login.php" aria-selected="false" tabindex="-1"
-                                role="tab"
-                                style="padding: 10px; background-color: red; border-radius: 5px; box-shadow: 1px 2px 10px 0;border: none; color: white;">Login</a>
+                        <a class="nav-item nav-link" href="service-registration.php" aria-selected="false" tabindex="-1" role="tab" style="padding: 10px; background-color: red; border-radius: 5px; box-shadow: 1px 2px 10px 0;border: none; color: white;"><i class="fa fa-book"></i> Service</a>
+
 
 
                             <!-- <li class="my-account">
@@ -260,8 +285,8 @@
                         <div class="about-content content-right">
                             <span class="title-highlighter highlighter-primary2"> <i
                                     class="far fa-shopping-basket"></i>About Us</span>
-                            <h3 class="title">Online shopping includes both buying things online.</h3>
-                            <span class="text-heading" style="text-align: justify;">Welcome to Futurewayy Computers,
+                            <h3 class="title">Seamless Systems, Superior Service.</h3>
+                            <span class="text-heading" style="text-align: justify; font-size:16px" >Welcome to Futurewayy Computers,
                                 where technology meets trust! Since 2013, we've been your go-to destination for all
                                 things tech. Here's what sets us Futurewayy, we're on a mission to provide you with the
                                 latest and most reliable technology solutions. Whether you're a professional or a
@@ -338,8 +363,8 @@
                 <div class="container ml--xxl-0">
                     <div class="section-title-wrapper">
                         <span class="title-highlighter highlighter-primary"> <i class="fas fa-users"></i> Our
-                            Team</span>
-                        <h3 class="title">Expart Management Team</h3>
+                            Awards</span>
+                        <h3 class="title">Futurewayy's  10 Years of Service</h3>
                     </div>
                     <div class="team-slide-activation slick-layout-wrapper--20 axil-slick-arrow  arrow-top-slide">
                         <div class="slick-single-layout">
@@ -347,8 +372,8 @@
                                 <div class="thumbnail"><img src="assets/images/team/team-01.png" alt="Cody Fisher">
                                 </div>
                                 <div class="team-content">
-                                    <span class="subtitle">Founder</span>
-                                    <h5 class="title">Rosalina D. Willson</h5>
+                                    <span class="subtitle">Award 1</span>
+                                    <h5 class="title" style="font-size:14px">System Innovator of the Year</h5>
                                 </div>
                             </div>
                         </div>
@@ -357,8 +382,8 @@
                                 <div class="thumbnail"><img src="assets/images/team/team-02.png" alt="Cody Fisher">
                                 </div>
                                 <div class="team-content">
-                                    <span class="subtitle">CEO</span>
-                                    <h5 class="title">Ukolilix X. Xilanorix</h5>
+                                    <span class="subtitle">Award 2</span>
+                                    <h5 class="title" style="font-size:14px">Outstanding Service Provider in Systems</h5>
                                 </div>
                             </div>
                         </div>
@@ -367,8 +392,8 @@
                                 <div class="thumbnail"><img src="assets/images/team/team-03.png" alt="Cody Fisher">
                                 </div>
                                 <div class="team-content">
-                                    <span class="subtitle">Designer</span>
-                                    <h5 class="title">Alonso M. Miklonax</h5>
+                                    <span class="subtitle">Award 3</span>
+                                    <h5 class="title" style="font-size:14px">Service Excellence in Technology Systems</h5>
                                 </div>
                             </div>
                         </div>
@@ -377,18 +402,18 @@
                                 <div class="thumbnail"><img src="assets/images/team/team-04.png" alt="Cody Fisher">
                                 </div>
                                 <div class="team-content">
-                                    <span class="subtitle">Designer</span>
-                                    <h5 class="title">Alonso M. Miklonax</h5>
+                                    <span class="subtitle">Award 4</span>
+                                    <h5 class="title" style="font-size:14px">Excellence in Technical Support Award</h5>
                                 </div>
                             </div>
                         </div>
                         <div class="slick-single-layout">
                             <div class="axil-team-member">
-                                <div class="thumbnail"><img src="assets/images/team/team-02.png" alt="Cody Fisher">
+                                <div class="thumbnail"><img src="assets/images/team/team-05.png" alt="Cody Fisher">
                                 </div>
                                 <div class="team-content">
-                                    <span class="subtitle">Designer</span>
-                                    <h5 class="title">Alonso M. Miklonax</h5>
+                                    <span class="subtitle">Award 5</span>
+                                    <h5 class="title" style="font-size:14px">Customer Satisfaction in System Sales</h5>
                                 </div>
                             </div>
                         </div>
@@ -488,10 +513,10 @@
                             </a>
                         </div> -->
                             <div class="inner">
-                                <p>OLD BUS STAND, 785 N /10 ,TKR TOWER, <br> SRI NAVAMANI JEWELRY BACK SIDE NEW OLD, Madurai Main Rd, <br> Theni, Tamil Nadu 625531.
+                                <p>Old Busstand, 785 N/10, TKR Tower, <br> Sri Navamani Jewellery Back Side, Madurai Main Rd, <br> Theni, Tamilnadu - 625531.
                                 </p>
                                 <ul class="support-list-item">
-                                    <li><a href="mailto:example@domain.com"><i class="fal fa-envelope-open"></i> futurewayycomputers@gmail.com</a></li>
+                                    <li><a href="mailto:example@domain.com"><i class="fal fa-envelope-open"></i> info@futurewayycomputers.com</a></li>
                                     <li><a href="tel:8344455531"><i class="fal fa-phone-alt"></i> +91-8344455531</a></li>
                                     <!-- <li><i class="fal fa-map-marker-alt"></i> 685 Market Street,  <br> Las Vegas, LA 95820, <br> United States.</li> -->
                                 </ul>
@@ -505,8 +530,10 @@
                             <h5 class="widget-title">Account</h5>
                             <div class="inner">
                                 <ul>
-                                    <li><a href="my-account.php">My Account</a></li>
-                                    <li><a href="sign-up.php">Login / Register</a></li>
+                                    <li><a href="login.php">Admin Login</a></li>
+                                    <li><a href="service-registration.php">Service Registration</a></li>
+                                    
+
                                   
                                 </ul>
                             </div>
@@ -521,7 +548,7 @@
                                 <ul>
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="about-us.php">About us</a></li>
-                                    <li><a href="#">Our Products</a></li>
+                                    <li><a href="our-products.php">Our Products</a></li>
                                     <li><a href="our-service.php">Our Services</a></li>
                                     <li><a href="contact.php">Contact us</a></li>
                                 </ul>
@@ -532,12 +559,12 @@
                     <!-- Start Single Widget  -->
                     <div class="col-lg-3 col-sm-6">
                         <div class="axil-footer-widget">
-                            <h5 class="widget-title">Download App</h5>
+                            <h5 class="widget-title">Get Touch With US</h5>
                             <div class="inner">
-                                <span>Save $3 With App & New User only</span>
+                             
                                 <div class="download-btn-group">
                                     <div class="qr-code">
-                                        <img src="assets/images/others/qr.png" alt="Axilthemes">
+                                       <a href=""> <img src="assets/images/logo/logo.png" alt="Futurewayy Computers"></a>
                                     </div>
                                     <div class="app-link">
                                         <a href="#">
@@ -589,167 +616,6 @@
     </footer>
     <!-- End Footer Area  -->
 
-    <!-- Product Quick View Modal Start -->
-    <div class="modal fade quick-view-product" id="quick-view-modal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
-                            class="far fa-times"></i></button>
-                </div>
-                <div class="modal-body">
-                    <div class="single-product-thumb">
-                        <div class="row">
-                            <div class="col-lg-7 mb--40">
-                                <div class="row">
-                                    <div class="col-lg-10 order-lg-2">
-                                        <div
-                                            class="single-product-thumbnail product-large-thumbnail axil-product thumbnail-badge zoom-gallery">
-                                            <div class="thumbnail">
-                                                <img src="assets/images/product/product-big-01.png"
-                                                    alt="Product Images">
-                                                <div class="label-block label-right">
-                                                    <div class="product-badget">20% OFF</div>
-                                                </div>
-                                                <div class="product-quick-view position-view">
-                                                    <a href="assets/images/product/product-big-01.png"
-                                                        class="popup-zoom">
-                                                        <i class="far fa-search-plus"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="thumbnail">
-                                                <img src="assets/images/product/product-big-02.png"
-                                                    alt="Product Images">
-                                                <div class="label-block label-right">
-                                                    <div class="product-badget">20% OFF</div>
-                                                </div>
-                                                <div class="product-quick-view position-view">
-                                                    <a href="assets/images/product/product-big-02.png"
-                                                        class="popup-zoom">
-                                                        <i class="far fa-search-plus"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="thumbnail">
-                                                <img src="assets/images/product/product-big-03.png"
-                                                    alt="Product Images">
-                                                <div class="label-block label-right">
-                                                    <div class="product-badget">20% OFF</div>
-                                                </div>
-                                                <div class="product-quick-view position-view">
-                                                    <a href="assets/images/product/product-big-03.png"
-                                                        class="popup-zoom">
-                                                        <i class="far fa-search-plus"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-2 order-lg-1">
-                                        <div class="product-small-thumb small-thumb-wrapper">
-                                            <div class="small-thumb-img">
-                                                <img src="assets/images/product/product-thumb/thumb-08.png"
-                                                    alt="thumb image">
-                                            </div>
-                                            <div class="small-thumb-img">
-                                                <img src="assets/images/product/product-thumb/thumb-07.png"
-                                                    alt="thumb image">
-                                            </div>
-                                            <div class="small-thumb-img">
-                                                <img src="assets/images/product/product-thumb/thumb-09.png"
-                                                    alt="thumb image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 mb--40">
-                                <div class="single-product-content">
-                                    <div class="inner">
-                                        <div class="product-rating">
-                                            <div class="star-rating">
-                                                <img src="assets/images/icons/rate.png" alt="Rate Images">
-                                            </div>
-                                            <div class="review-link">
-                                                <a href="#">(<span>1</span> customer reviews)</a>
-                                            </div>
-                                        </div>
-                                        <h3 class="product-title">Serif Coffee Table</h3>
-                                        <span class="price-amount">$155.00 - $255.00</span>
-                                        <ul class="product-meta">
-                                            <li><i class="fal fa-check"></i>In stock</li>
-                                            <li><i class="fal fa-check"></i>Free delivery available</li>
-                                            <li><i class="fal fa-check"></i>Sales 30% Off Use Code: MOTIVE30</li>
-                                        </ul>
-                                        <p class="description">In ornare lorem ut est dapibus, ut tincidunt nisi
-                                            pretium. Integer ante est, elementum eget magna. Pellentesque sagittis
-                                            dictum libero, eu dignissim tellus.</p>
-
-                                        <div class="product-variations-wrapper">
-
-                                            <!-- Start Product Variation  -->
-                                            <div class="product-variation">
-                                                <h6 class="title">Colors:</h6>
-                                                <div class="color-variant-wrapper">
-                                                    <ul class="color-variant mt--0">
-                                                        <li class="color-extra-01 active"><span><span
-                                                                    class="color"></span></span>
-                                                        </li>
-                                                        <li class="color-extra-02"><span><span
-                                                                    class="color"></span></span>
-                                                        </li>
-                                                        <li class="color-extra-03"><span><span
-                                                                    class="color"></span></span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <!-- End Product Variation  -->
-
-                                            <!-- Start Product Variation  -->
-                                            <div class="product-variation">
-                                                <h6 class="title">Size:</h6>
-                                                <ul class="range-variant">
-                                                    <li>xs</li>
-                                                    <li>s</li>
-                                                    <li>m</li>
-                                                    <li>l</li>
-                                                    <li>xl</li>
-                                                </ul>
-                                            </div>
-                                            <!-- End Product Variation  -->
-
-                                        </div>
-
-                                        <!-- Start Product Action Wrapper  -->
-                                        <div class="product-action-wrapper d-flex-center">
-                                            <!-- Start Quentity Action  -->
-                                            <div class="pro-qty"><input type="text" value="1"></div>
-                                            <!-- End Quentity Action  -->
-
-                                            <!-- Start Product Action  -->
-                                            <ul class="product-action d-flex-center mb--0">
-                                                <li class="add-to-cart"><a href="cart.php"
-                                                        class="axil-btn btn-bg-primary">Get Quote</a></li>
-                                                <li class="wishlist"><a href="wishlist.php"
-                                                        class="axil-btn wishlist-btn"><i class="far fa-heart"></i></a>
-                                                </li>
-                                            </ul>
-                                            <!-- End Product Action  -->
-
-                                        </div>
-                                        <!-- End Product Action Wrapper  -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Product Quick View Modal End -->
 
     <!-- Header Search Modal End -->
     <div class="header-search-modal" id="header-search-modal">
@@ -767,7 +633,7 @@
             <div class="card-body">
                 <div class="search-result-header">
                     <h6 class="title">24 Result Found</h6>
-                    <a href="shop.php" class="view-all">View All</a>
+                    <a href="our-products.php" class="view-all">View All</a>
                 </div>
                 <div class="psearch-results">
                     <div class="axil-product-list">
@@ -790,7 +656,7 @@
                             <h6 class="product-title"><a href="#">Media Remote</a></h6>
                             <div class="product-price-variant">
                                 <span class="price current-price">$29.99</span>
-                                <span class="price old-price">₹100.99</span>
+                                <span class="price old-price">Rs.100.99</span>
                             </div>
                             <div class="product-cart">
                                 <a href="cart.php" class="cart-btn"><i class="fal fa-shopping-cart"></i></a>
@@ -818,7 +684,7 @@
                             <h6 class="product-title"><a href="#">Media Remote</a></h6>
                             <div class="product-price-variant">
                                 <span class="price current-price">$29.99</span>
-                                <span class="price old-price">₹100.99</span>
+                                <span class="price old-price">Rs.100.99</span>
                             </div>
                             <div class="product-cart">
                                 <a href="cart.php" class="cart-btn"><i class="fal fa-shopping-cart"></i></a>

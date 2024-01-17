@@ -53,6 +53,7 @@
     <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/vendor/base.css">
     <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -66,7 +67,7 @@
     <div class="header-top-campaign mb-4">
         <div class="container position-relative">
             <div class="campaign-content">
-                <p>Open Doors To A World Of Fashion <a href="#">Discover More</a></p>
+                   <p>Looking for a best digital marketing in theni <a href="https://nearlooks.com/" target="_blank">Discover More</a></p>
             </div>
         </div>
         <button class="remove-campaign"><i class="fal fa-times"></i></button>
@@ -147,10 +148,10 @@
                             </li>
                             <li><a href="about-us.php">About us</a></li>
                             <li class="">
-                                <a href="#">Our Products</a>
+                                <a href="our-products.php">Our Products</a>
                                 <!-- <ul class="axil-submenu">
                                     <li><a href="shop-sidebar.php">Shop With Sidebar</a></li>
-                                    <li><a href="shop.php">Shop no Sidebar</a></li>
+                                    <li><a href="our-products.php">Shop no Sidebar</a></li>
                                     <li><a href="#">Product Variation 1</a></li>
                                     <li><a href="single-product-2.php">Product Variation 2</a></li>
                                     <li><a href="single-product-3.php">Product Variation 3</a></li>
@@ -200,7 +201,8 @@
                     
                     <ul class="action-list">
                         
-                            <a class="nav-item nav-link" href="login.php" aria-selected="false" tabindex="-1" role="tab" style="padding: 10px; background-color: red; border-radius: 5px; box-shadow: 1px 2px 10px 0;border: none; color: white;">Login</a>
+                    <a class="nav-item nav-link" href="service-registration.php" aria-selected="false" tabindex="-1" role="tab" style="padding: 10px; background-color: red; border-radius: 5px; box-shadow: 1px 2px 10px 0;border: none; color: white;"><i class="fa fa-book"></i> Service</a>
+
                         
                     
                         <!-- <li class="my-account">
@@ -256,7 +258,8 @@
                         <div class="col-lg-6">
                             <div class="axil-order-summery order-checkout-summery" style="background-color:transparent">
                                 <div class="axil-checkout-billing" >
-                                    <h4 class="title mb--40">Book a Service</h4>
+                                <span class="title-highlighter highlighter-primary2 mb-5"> <i class="fa fa-gear fa-spin"></i>Book a service</span>
+                            
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="form-group">
@@ -374,8 +377,8 @@
             </div>
         </div>
     </div>
-    <!-- Start Footer Area  -->
-    <footer class="axil-footer-area footer-style-2">
+   <!-- Start Footer Area  -->
+   <footer class="axil-footer-area footer-style-2">
         <!-- Start Footer Top Area  -->
         <div class="footer-top separator-top">
             <div class="container">
@@ -390,13 +393,11 @@
                             </a>
                         </div> -->
                             <div class="inner">
-                                <p>685 Market Street, <br>
-                                Las Vegas, LA 95820, <br>
-                                United States.
+                                <p>Old Busstand, 785 N/10, TKR Tower, <br> Sri Navamani Jewellery Back Side, Madurai Main Rd, <br> Theni, Tamilnadu - 625531.
                                 </p>
                                 <ul class="support-list-item">
-                                    <li><a href="mailto:example@domain.com"><i class="fal fa-envelope-open"></i> example@domain.com</a></li>
-                                    <li><a href="tel:(+01)850-315-5862"><i class="fal fa-phone-alt"></i> (+01) 850-315-5862</a></li>
+                                    <li><a href="mailto:example@domain.com"><i class="fal fa-envelope-open"></i> info@futurewayycomputers.com</a></li>
+                                    <li><a href="tel:8344455531"><i class="fal fa-phone-alt"></i> +91-8344455531</a></li>
                                     <!-- <li><i class="fal fa-map-marker-alt"></i> 685 Market Street,  <br> Las Vegas, LA 95820, <br> United States.</li> -->
                                 </ul>
                             </div>
@@ -409,11 +410,11 @@
                             <h5 class="widget-title">Account</h5>
                             <div class="inner">
                                 <ul>
-                                    <li><a href="my-account.php">My Account</a></li>
-                                    <li><a href="sign-up.php">Login / Register</a></li>
-                                    <li><a href="cart.php">Cart</a></li>
-                                    <li><a href="wishlist.php">Wishlist</a></li>
-                                    <li><a href="shop.php">Shop</a></li>
+                                    <li><a href="login.php">Admin Login</a></li>
+                                    <li><a href="service-registration.php">Service Registration</a></li>
+                                    
+
+                                  
                                 </ul>
                             </div>
                         </div>
@@ -425,11 +426,11 @@
                             <h5 class="widget-title">Quick Link</h5>
                             <div class="inner">
                                 <ul>
-                                    <li><a href="privacy-policy.php">Privacy Policy</a></li>
-                                    <li><a href="terms-of-service.php">Terms Of Use</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="contact.php">Contact</a></li>
-                                    <li><a href="contact.php">Contact</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="about-us.php">About us</a></li>
+                                    <li><a href="our-products.php">Our Products</a></li>
+                                    <li><a href="our-service.php">Our Services</a></li>
+                                    <li><a href="contact.php">Contact us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -438,12 +439,12 @@
                     <!-- Start Single Widget  -->
                     <div class="col-lg-3 col-sm-6">
                         <div class="axil-footer-widget">
-                            <h5 class="widget-title">Download App</h5>
+                            <h5 class="widget-title">Get Touch With US</h5>
                             <div class="inner">
-                                <span>Save $3 With App & New User only</span>
+                             
                                 <div class="download-btn-group">
                                     <div class="qr-code">
-                                        <img src="assets/images/others/qr.png" alt="Axilthemes">
+                                       <a href=""> <img src="assets/images/logo/logo.png" alt="Futurewayy Computers"></a>
                                     </div>
                                     <div class="app-link">
                                         <a href="#">
@@ -478,18 +479,14 @@
                     <div class="col-xl-4 col-lg-12">
                         <div class="copyright-left d-flex flex-wrap justify-content-center">
                             <ul class="quick-link">
-                                <li>© 2023. All rights reserved by <a target="_blank" href="https://axilthemes.com/">Axilthemes</a>.</li>
+                                <li>© 2023. All rights reserved by <a target="_blank" href="https://nearlooks.com/">Nearlook</a>.</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-12">
                         <div class="copyright-right d-flex flex-wrap justify-content-xl-end justify-content-center align-items-center">
-                            <span class="card-text">Accept For</span>
-                            <ul class="payment-icons-bottom quick-link">
-                                <li><img src="assets/images/icons/cart/cart-1.png" alt="paypal cart"></li>
-                                <li><img src="assets/images/icons/cart/cart-2.png" alt="paypal cart"></li>
-                                <li><img src="assets/images/icons/cart/cart-5.png" alt="paypal cart"></li>
-                            </ul>
+                            <span class="card-text">Thanks for choosing Futurewayy Computers &#128578;</span>
+                          
                         </div>
                     </div>
                 </div>
@@ -499,148 +496,6 @@
     </footer>
     <!-- End Footer Area  -->
 
-    <!-- Product Quick View Modal Start -->
-    <div class="modal fade quick-view-product" id="quick-view-modal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="far fa-times"></i></button>
-                </div>
-                <div class="modal-body">
-                    <div class="single-product-thumb">
-                        <div class="row">
-                            <div class="col-lg-7 mb--40">
-                                <div class="row">
-                                    <div class="col-lg-10 order-lg-2">
-                                        <div class="single-product-thumbnail product-large-thumbnail axil-product thumbnail-badge zoom-gallery">
-                                            <div class="thumbnail">
-                                                <img src="assets/images/product/product-big-01.png" alt="Product Images">
-                                                <div class="label-block label-right">
-                                                    <div class="product-badget">20% OFF</div>
-                                                </div>
-                                                <div class="product-quick-view position-view">
-                                                    <a href="assets/images/product/product-big-01.png" class="popup-zoom">
-                                                        <i class="far fa-search-plus"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="thumbnail">
-                                                <img src="assets/images/product/product-big-02.png" alt="Product Images">
-                                                <div class="label-block label-right">
-                                                    <div class="product-badget">20% OFF</div>
-                                                </div>
-                                                <div class="product-quick-view position-view">
-                                                    <a href="assets/images/product/product-big-02.png" class="popup-zoom">
-                                                        <i class="far fa-search-plus"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="thumbnail">
-                                                <img src="assets/images/product/product-big-03.png" alt="Product Images">
-                                                <div class="label-block label-right">
-                                                    <div class="product-badget">20% OFF</div>
-                                                </div>
-                                                <div class="product-quick-view position-view">
-                                                    <a href="assets/images/product/product-big-03.png" class="popup-zoom">
-                                                        <i class="far fa-search-plus"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-2 order-lg-1">
-                                        <div class="product-small-thumb small-thumb-wrapper">
-                                            <div class="small-thumb-img">
-                                                <img src="assets/images/product/product-thumb/thumb-08.png" alt="thumb image">
-                                            </div>
-                                            <div class="small-thumb-img">
-                                                <img src="assets/images/product/product-thumb/thumb-07.png" alt="thumb image">
-                                            </div>
-                                            <div class="small-thumb-img">
-                                                <img src="assets/images/product/product-thumb/thumb-09.png" alt="thumb image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 mb--40">
-                                <div class="single-product-content">
-                                    <div class="inner">
-                                        <div class="product-rating">
-                                            <div class="star-rating">
-                                                <img src="assets/images/icons/rate.png" alt="Rate Images">
-                                            </div>
-                                            <div class="review-link">
-                                                <a href="#">(<span>1</span> customer reviews)</a>
-                                            </div>
-                                        </div>
-                                        <h3 class="product-title">Serif Coffee Table</h3>
-                                        <span class="price-amount">$155.00 - $255.00</span>
-                                        <ul class="product-meta">
-                                            <li><i class="fal fa-check"></i>In stock</li>
-                                            <li><i class="fal fa-check"></i>Free delivery available</li>
-                                            <li><i class="fal fa-check"></i>Sales 30% Off Use Code: MOTIVE30</li>
-                                        </ul>
-                                        <p class="description">In ornare lorem ut est dapibus, ut tincidunt nisi pretium. Integer ante est, elementum eget magna. Pellentesque sagittis dictum libero, eu dignissim tellus.</p>
-
-                                        <div class="product-variations-wrapper">
-
-                                            <!-- Start Product Variation  -->
-                                            <div class="product-variation">
-                                                <h6 class="title">Colors:</h6>
-                                                <div class="color-variant-wrapper">
-                                                    <ul class="color-variant mt--0">
-                                                        <li class="color-extra-01 active"><span><span class="color"></span></span>
-                                                        </li>
-                                                        <li class="color-extra-02"><span><span class="color"></span></span>
-                                                        </li>
-                                                        <li class="color-extra-03"><span><span class="color"></span></span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <!-- End Product Variation  -->
-
-                                            <!-- Start Product Variation  -->
-                                            <div class="product-variation">
-                                                <h6 class="title">Size:</h6>
-                                                <ul class="range-variant">
-                                                    <li>xs</li>
-                                                    <li>s</li>
-                                                    <li>m</li>
-                                                    <li>l</li>
-                                                    <li>xl</li>
-                                                </ul>
-                                            </div>
-                                            <!-- End Product Variation  -->
-
-                                        </div>
-
-                                        <!-- Start Product Action Wrapper  -->
-                                        <div class="product-action-wrapper d-flex-center">
-                                            <!-- Start Quentity Action  -->
-                                            <div class="pro-qty"><input type="text" value="1"></div>
-                                            <!-- End Quentity Action  -->
-
-                                            <!-- Start Product Action  -->
-                                            <ul class="product-action d-flex-center mb--0">
-                                                <li class="add-to-cart"><a href="cart.php" class="axil-btn btn-bg-primary">Add to Cart</a></li>
-                                                <li class="wishlist"><a href="wishlist.php" class="axil-btn wishlist-btn"><i class="far fa-heart"></i></a></li>
-                                            </ul>
-                                            <!-- End Product Action  -->
-
-                                        </div>
-                                        <!-- End Product Action Wrapper  -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Product Quick View Modal End -->
 
     <!-- Header Search Modal End -->
     <div class="header-search-modal" id="header-search-modal">
@@ -657,7 +512,7 @@
             <div class="card-body">
                 <div class="search-result-header">
                     <h6 class="title">24 Result Found</h6>
-                    <a href="shop.php" class="view-all">View All</a>
+                    <a href="our-products.php" class="view-all">View All</a>
                 </div>
                 <div class="psearch-results">
                     <div class="axil-product-list">

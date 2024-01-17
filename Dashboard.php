@@ -101,7 +101,7 @@ $completed_count = $completed_count->rowCount();
             <!-- BEGIN: Side Menu -->
             <nav class="side-nav">
                 <a href="#" class="intro-x flex items-center pl-5 pt-4">
-                    <img alt="Midone - HTML Admin Template" width="100%" src="assets/images/logo/logo.png">
+                    <img alt="Midone - HTML Admin Template" width="80%" src="assets/images/logo/logo dark.png">
                  
                 </a>
                 <div class="side-nav__devider my-6"></div>
